@@ -1,4 +1,4 @@
-package estructuras_control
+package control_structures
 
 import java.util.Scanner
 
