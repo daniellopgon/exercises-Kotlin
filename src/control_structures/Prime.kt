@@ -37,4 +37,6 @@ fun main() {
     }
 
     println("Cantidad de números primos encontrados: $primeCount")
+
+    scanner.close()
 }
