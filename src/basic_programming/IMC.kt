@@ -3,9 +3,9 @@ package basic_programming
 import kotlin.math.pow
 
 /*
-Declare a variable with your weight in kg and with your height in meters.
+Declara una variable con tu peso en kg y otra con tu altura en metros.
 
-Calculate the index of corporal mass (IMC = peso / altura2) and print with String format.
+Calcula el índice de masa corporal (IMC = peso / altura²) e imprímelo con formato String.
  */
 
 fun main() {

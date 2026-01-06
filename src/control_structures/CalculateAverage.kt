@@ -16,30 +16,30 @@ Muestra el total de notas válidas ingresadas y el promedio final con 2 decimale
 fun main() {
 
     var sc = Scanner(System.`in`)
-    var suma = 0.0
-    var contador = 0
-    var entrada: String
+    var sum = 0.0
+    var counter = 0
+    var input: String
 
     println("Introduce una nota entre(0/10): , escribe (fin) para salir")
-    entrada = sc.nextLine()
+    input = sc.nextLine()
 
-    while (entrada != "fin") {
+    while (input != "fin") {
 
-        var nota = entrada.toDouble()
+        var grade = input.toDouble()
 
-        if (nota < 0.0 || nota > 10.0) {
+        if (grade < 0.0 || grade > 10.0) {
             println("Introduce una nota válida")
         } else {
-            suma += nota
-            contador++
+            sum += grade
+            counter++
         }
 
         print("Introduce una nota entre 0 y 10, o escribe 'fin' para salir: ")
-        entrada = sc.nextLine()
+        input = sc.nextLine()
     }
 
-    var promedio = suma / contador
+    var average = sum / counter
 
-    println("El promedio de las notas es $promedio")
+    println("El promedio de las notas es $average")
 
 }

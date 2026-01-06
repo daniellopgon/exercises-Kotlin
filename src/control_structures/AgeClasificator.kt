@@ -17,35 +17,35 @@ Además, al final, muestra cuántas personas hay en cada categoría.
 fun main() {
 
     var scanner = Scanner(System.`in`)
-    var contador = 0
-    var contadorAdultos = 0
-    var contadorAnciano = 0
-    var contadorNinio = 0
+    var counter = 0
+    var adultCounter = 0
+    var elderlyCounter = 0
+    var childCounter = 0
 
-    while (contador < 5) {
+    while (counter < 5) {
 
         println("Introduce la edad de 5 personas: ")
-        var edad = scanner.nextInt()
+        var age = scanner.nextInt()
 
-        contador++;
+        counter++;
 
-        if (edad <= 18) {
+        if (age <= 18) {
             println(" Es menor de edad ")
-            contadorNinio++
-        } else if (edad <= 64) {
+            childCounter++
+        } else if (age <= 64) {
             println(" Es adulto ")
-            contadorAdultos++
+            adultCounter++
         } else {
             println(" Es adulto mayor ")
-            contadorAnciano++
+            elderlyCounter++
         }
     }
 
-    if (contadorNinio > contadorAnciano && contadorNinio > contadorAdultos) {
-        println("Hay multitud de niños: $contadorNinio")
-    } else if (contadorAdultos > contadorNinio && contadorAdultos > contadorAnciano) {
-        println("Hay multitud de adultos: $contadorAdultos")
+    if (childCounter > elderlyCounter && childCounter > adultCounter) {
+        println("Hay multitud de niños: $childCounter")
+    } else if (adultCounter > childCounter && adultCounter > elderlyCounter) {
+        println("Hay multitud de adultos: $adultCounter")
     } else {
-        println("Hay multitud de ancianos: $contadorAnciano")
+        println("Hay multitud de ancianos: $elderlyCounter")
     }
 }

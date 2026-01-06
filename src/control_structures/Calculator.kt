@@ -3,7 +3,7 @@ package control_structures
 import java.util.*
 
 /*
-Create a menu for a simple calculator.
+Crea un menú para una calculadora simple.
  */
 
 fun main() {

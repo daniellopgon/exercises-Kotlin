@@ -3,11 +3,11 @@ package basic_programming
 import java.util.Scanner
 
 /*
-Declare three booleans variables: hasDNI, adult, lives In Spain.
+Declara tres variables booleanas: tieneDNI, esAdulto, viveEnEspaña.
 
-After declaring another variable canVote that it be the result of:
+Después declara otra variable puedeVotar que sea el resultado de:
 
-hasDNI && adult && lives in Spain print the result with: ¿Can vote? = true
+tieneDNI && esAdulto && viveEnEspaña e imprime el resultado con: ¿Puede votar? = true
  */
 
 fun main() {

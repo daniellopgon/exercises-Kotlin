@@ -3,9 +3,9 @@ package basic_programming
 import java.util.Scanner
 
 /*
-Declare variables for the price product, the quantity bought, and a tax of 21%.
+Declara variables para el precio del producto, la cantidad comprada y un impuesto del 21%.
 
-Calculate the total amount (price * quantity * 1.21) and print: "
+Calcula el importe total (precio * cantidad * 1.21) e imprime:
 
 "Total a pagar por 3 productos de 9.99€ con IVA: 36.27€"
  */
