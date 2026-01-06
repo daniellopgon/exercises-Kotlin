@@ -1,11 +1,11 @@
 package basic_programming
 
 /*
-Declare your name, your age and how many books read this year.
+Declara tu nombre, tu edad y cuántos libros has leído este año.
 
-Make a variable that calculates how many books will read if you keep this rhythm for 5 years.
+Crea una variable que calcule cuántos libros leerás si mantienes este ritmo durante 5 años.
 
-Print a sentence like "Hola, me llamo Carlos tengo 20 años y leeré 75 libros en 5 años"
+Imprime una frase como "Hola, me llamo Carlos tengo 20 años y leeré 75 libros en 5 años"
  */
 
 fun main() {

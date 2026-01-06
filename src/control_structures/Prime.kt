@@ -3,11 +3,11 @@ package control_structures
 import java.util.Scanner
 
 /*
-Request two numbers from the user (start and end).
+Pide al usuario dos números (inicio y fin).
 
-Print all prime numbers in the range.
+Imprime todos los números primos en el rango.
 
-Finally, display the count of prime numbers found.
+Finalmente, muestra la cantidad de números primos encontrados.
  */
 
 fun main() {

@@ -3,9 +3,9 @@ package control_structures
 import java.util.Scanner
 
 /*
-Request an odd positive number n from the user and draw a triangle with n rows using only # signs.
+Pide al usuario un número impar positivo n y dibuja un triángulo con n filas usando solo signos #.
 
-Each row should have an odd number of signs.
+Cada fila debe tener un número impar de signos.
  */
 
 fun main() {
@@ -17,14 +17,14 @@ fun main() {
     if ((odd and 1) == 0 || odd <= 0) {
         println("Introduce un número impar positivo: ")
     } else {
-        val widht = odd * 2 - 1
-        val center = widht shr 1
+        val width = odd * 2 - 1
+        val center = width shr 1
 
         for (i in 0..odd) {
             val start = center - i
             val end = center + i
 
-            for (j in 0..widht) {
+            for (j in 0..width) {
                 if (j >= start && j <= end) {
                     print("#")
                 } else {
